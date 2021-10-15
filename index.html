@@ -17,7 +17,7 @@
 <body>
     <header class="header">
         <div class="info">
-            <h1 class="header__title">FlexTourism</h1>
+            <h1 class="header__title logo">FlexTourism</h1>
 
             <div id="btn-mobile">
                 <div class="line-one"></div>
@@ -37,7 +37,7 @@
         </div>
     </header>
 
-    <main class="flex-container">
+    <main class="main-container">
         <div class="main__info">
             <h1 class="main__title title">Let's make your best trip ever</h1>
             <p class="main__desc desc">
@@ -66,10 +66,62 @@
     </div>
 
     <div class="services">
-        <div class="flex container">
+        <div class="flex-container">
+            <h1 class="services__title title">Services</h1>
 
+            <div class="accommodations services__wrapper">
+                <img class="services__icon" src="assets/image/icon-1.png" alt="accommodations icon">
+                <h2 class="accomodations__title serv__title">Accommodations</h2>
+                <p class="accomodations__desc serv__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="packages services__wrapper">
+                <img class="services__icon" src="assets/image/icon-2.png" alt="packages icon">
+                <h2 class="packages__title serv__title">Packages</h2>
+                <p class="packages__desc serv__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="itinerary services__wrapper">
+                <img class="services__icon" src="assets/image/icon-3.png" alt="itinerary icon">
+                <h2 class="itinerary__title serv__title">Itinerary</h2>
+                <p class="itinerary__desc serv__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
         </div>
     </div>
+
+    <div class="contact">
+        <div class="flex-container">
+            <h1 class="title">Get in contact</h1>
+
+            <form class="contact__form" action="">
+                <input type="text" placeholder="Name">
+                
+                <input type="tel" name="" id="" placeholder="Phone Number">
+
+                <input type="email" name="" id="" placeholder="Email">
+
+                <input type="text" placeholder="Destination (optional)">
+
+                <textarea class="contact__textarea" name="" id="" cols="30" rows="4" placeholder="Your message"></textarea>
+            </form>
+
+            <button class="contact__btn">Send</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <h1 class="footer__title logo">FlexTourism</h1>
+
+            <ul class="footer__menu">
+                <li class="footer__menu--link"><a href="#">About Us</a></li>
+                <li class="footer__menu--link"><a href="#">Plans</a></li>
+                <li class="footer__menu--link"><a href="#">Services</a></li>
+                <li class="footer__menu--link"><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+    </footer>
 
     
     <script src="js/index.js"></script>
